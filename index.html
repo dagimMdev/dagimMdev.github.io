@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f4ef">
+    <meta name="description" content="Dagim Mulatu's software development portfolio, projects, and experience.">
+    <title>Dagim Mulatu | Software Developer in Progress</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="portfolio-data.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Dagim Mulatu, home">DM<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a class="nav-cta" href="#contact">Connect <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section-wrap" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> COMPUTER SCIENCE STUDENT · MARYLAND</p>
+          <h1>Curious mind.<br><span>Practical builder.</span></h1>
+          <p class="hero-intro">I’m Dagim, a Computer Science student who enjoys turning ideas into useful software. I’m building my skills in Java, Python, and thoughtful problem-solving.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="#about">A little about me <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Quick introduction">
+          <div class="card-topline"><span>PROFILE / 01</span><span aria-hidden="true">✳</span></div>
+          <div class="orbit" aria-hidden="true"><span>DM</span><i></i><i></i><i></i></div>
+          <p class="card-caption">Learning by building,<br>growing by sharing.</p>
+          <div class="card-bottomline"><span>JAVA · PYTHON · PEOPLE</span><span>↗</span></div>
+        </aside>
+        <div class="hero-index" aria-hidden="true">01 — PORTFOLIO</div>
+      </section>
+
+      <section class="intro-band">
+        <div class="section-wrap intro-inner">
+          <p class="eyebrow">WHAT I BRING</p>
+          <p>Technical curiosity, a collaborative mindset, and a genuine interest in building software that helps people.</p>
+          <span class="sparkle" aria-hidden="true">✳</span>
+        </div>
+      </section>
+
+      <section class="content-section section-wrap" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">01 / ABOUT</p>
+          <h2>Still learning.<br><span>Already making.</span></h2>
+        </div>
+        <div class="about-content">
+          <p class="large-copy">I’m studying Computer Science at the University of Maryland, College Park, after transferring from Montgomery College in Fall 2026.</p>
+          <p>My coursework and projects have helped me build a foundation in programming, data structures, object-oriented design, and software testing. I like breaking down a problem, sketching a clear solution, and improving it through testing and feedback.</p>
+          <div class="skill-list" aria-label="Skills">
+            <span>Java</span><span>Python</span><span>Data structures</span><span>JUnit</span><span>JavaFX</span><span>Git &amp; GitHub</span><span>UML</span><span>Debugging</span>
+          </div>
+          <div class="language-note"><span class="note-mark">↗</span><p><strong>More than code</strong><br>English, Amharic, Wolaytta, and Hindi</p></div>
+        </div>
+      </section>
+
+      <section class="projects-section" id="projects">
+        <div class="section-wrap">
+          <div class="section-heading projects-heading">
+            <div><p class="eyebrow">02 / SELECTED WORK</p><h2>Built to learn.<br><span>Made to work.</span></h2></div>
+            <p class="heading-aside">A growing collection of coursework, experiments, and projects. More details and source links will be added as they’re ready to share.</p>
+          </div>
+          <div class="project-grid" id="project-grid" aria-label="Selected projects"></div>
+          <template id="project-card-template">
+            <article class="project-card">
+              <div class="project-meta"><span data-project-technologies></span><span data-project-number></span></div>
+              <div class="project-art" data-project-art aria-hidden="true"></div>
+              <h3 data-project-title></h3>
+              <p data-project-description></p>
+              <p class="project-lesson"><strong>What I learned:</strong> <span data-project-lesson></span></p>
+              <div class="project-links" data-project-links></div>
+              <span class="project-status" data-project-status></span>
+            </article>
+          </template>
+          <div class="interests-block" id="interests">
+            <div class="interests-heading">
+              <p class="eyebrow">AREAS I’M INTERESTED IN</p>
+              <p>Ideas for future experiments—not completed projects.</p>
+            </div>
+            <div class="interest-grid" id="interest-grid" aria-label="Hardware and software interests"></div>
+          </div>
+          <div class="journal-block" id="learning-journal">
+            <div class="journal-heading">
+              <p class="eyebrow">LEARNING JOURNAL</p>
+              <h3>Notes from the process.</h3>
+              <p>Small, public reflections on experiments and what I’m learning along the way.</p>
+            </div>
+            <div class="journal-list" id="journal-list"></div>
+            <p class="journal-privacy">Only entries deliberately added to the public portfolio data appear here. Keep private notes elsewhere.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section section-wrap experience-section" id="experience">
+        <div class="section-heading">
+          <p class="eyebrow">03 / EXPERIENCE</p>
+          <h2>People skills<br><span>are real skills.</span></h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-date">DEC 2023 — PRESENT</div>
+            <div><h3>Youth Development Assistant</h3><p class="timeline-place">Montgomery County Recreation · Wheaton, Maryland</p><p>Support youth engagement through structured activities that encourage leadership, teamwork, and social skills. Help facilitate life-skills workshops and create a safe, productive environment with educators and staff.</p></div>
+            <span class="timeline-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">JAN 2021 — OCT 2022</div>
+            <div><h3>Community &amp; Deliveries Volunteer</h3><p class="timeline-place">Washington Christian Academy · Olney, Maryland</p><p>Assisted community members, supported deliveries and events, and helped staff with daily tasks and program organization.</p></div>
+            <span class="timeline-arrow" aria-hidden="true">↗</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="assistant-section">
+        <div class="section-wrap assistant-layout">
+          <div class="assistant-copy">
+            <p class="eyebrow">A QUICK INTRODUCTION</p>
+            <h2>Questions?<br><span>Let’s make it easy.</span></h2>
+            <p>Try the portfolio Q&amp;A for a quick, source-based overview of my skills, experience, or projects.</p>
+            <p class="assistant-disclaimer">This demo runs in your browser using information on this page. It does not send questions or personal data to a server.</p>
+          </div>
+          <div class="chat-card">
+            <div class="chat-header"><span class="chat-avatar">DM</span><div><strong>Portfolio Q&amp;A</strong><small><span class="status-dot"></span> READY TO HELP</small></div><span class="chat-menu" aria-hidden="true">···</span></div>
+            <div class="chat-messages" id="chat-messages" aria-live="polite" aria-relevant="additions">
+              <div class="message assistant-message">Hi! Ask me about Dagim’s skills, projects, education, or experience.</div>
+            </div>
+            <div class="suggestions" aria-label="Suggested questions">
+              <button type="button" data-question="What programming languages does Dagim know?">Skills</button>
+              <button type="button" data-question="Tell me about Dagim's projects.">Projects</button>
+              <button type="button" data-question="What experience does Dagim have?">Experience</button>
+            </div>
+            <form class="chat-form" id="chat-form">
+              <label class="visually-hidden" for="chat-input">Ask about Dagim’s portfolio</label>
+              <input id="chat-input" name="question" type="text" maxlength="240" placeholder="Ask a question..." autocomplete="off" required>
+              <button type="submit" aria-label="Send question">↑</button>
+            </form>
+            <p class="chat-footnote">BROWSER-ONLY DEMO · NO QUESTION DATA IS SENT</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section section-wrap" id="contact">
+        <p class="eyebrow">04 / NEXT STEPS</p>
+        <h2>Let’s build<br><span>something good.</span></h2>
+        <p>I’m interested in software development and data analysis opportunities, internships, and projects where I can keep learning and contribute.</p>
+        <div class="contact-links" id="contact-links" aria-label="Public profiles"></div>
+        <p class="contact-config-note" id="contact-config-note">Add GitHub or LinkedIn profile URLs to portfolio-data.js when you’re ready to share them publicly.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark" href="#top">DM<span>.</span></a>
+      <p>Designed with curiosity · 2026</p>
+      <a href="#top">BACK TO TOP ↑</a>
+    </footer>
+  </body>
+</html>
