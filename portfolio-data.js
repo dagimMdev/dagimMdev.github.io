@@ -1,8 +1,8 @@
 // Every value here is published with the portfolio. Add only information you intend to share.
 window.portfolioData = {
   contact: {
-    github: "",
-    linkedin: ""
+    github: "https://github.com/dagimMdev",
+    linkedin: "https://www.linkedin.com/in/dagimmulatu"
   },
   profile: {
     skills: ["Java", "Python", "Data structures", "JUnit", "JavaFX", "Git & GitHub", "UML", "Debugging"],

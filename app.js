@@ -11,7 +11,6 @@ const projectTemplate = document.querySelector("#project-card-template");
 const interestGrid = document.querySelector("#interest-grid");
 const journalList = document.querySelector("#journal-list");
 const contactLinks = document.querySelector("#contact-links");
-const contactConfigNote = document.querySelector("#contact-config-note");
 
 const intents = [
   { id: "skills", terms: ["skill", "skills", "programming language", "programming languages", "technical", "technology", "java", "python", "javafx", "junit"] },
@@ -269,10 +268,8 @@ function renderJournal() {
 
 function renderContactLinks() {
   contactLinks.replaceChildren();
-  let configured = false;
-  configured = addExternalLink(contactLinks, "GitHub ↗", portfolio.contact.github, ["github.com"]) || configured;
-  configured = addExternalLink(contactLinks, "LinkedIn ↗", portfolio.contact.linkedin, ["linkedin.com", "www.linkedin.com"]) || configured;
-  contactConfigNote.hidden = configured;
+  addExternalLink(contactLinks, "GitHub ↗", portfolio.contact.github, ["github.com"]);
+  addExternalLink(contactLinks, "LinkedIn ↗", portfolio.contact.linkedin, ["linkedin.com", "www.linkedin.com"]);
 }
 
 function addMessage(text, className) {
